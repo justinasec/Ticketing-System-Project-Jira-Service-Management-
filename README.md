@@ -7,7 +7,7 @@ Jira Service Management lab simulating a real help desk environment. Covers tick
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Creating a Project](#creating-a-project)
+2. [Building a Team](#building-a-team)
 3. [Creating Tickets](#creating-tickets)
 4. [Ticket Triage and Priority](#ticket-triage-and-priority)
 5. [Assigning Tickets](#assigning-tickets)
@@ -36,17 +36,17 @@ Jira Service Management lab simulating a real help desk environment. Covers tick
 
 ## Project Overview
 
-This lab simulates a real IT help desk environment using Jira Service Management. Tickets were created to reflect common help desk requests and incidents, then triaged, assigned, escalated, and resolved following standard IT support workflows. The tickets in this lab reference tasks performed in the Active Directory and Entra ID labs to connect the projects together.
+This lab simulates a real IT help desk environment using Jira Service Management. Tickets were created to reflect common help desk requests and incidents, then triaged, assigned to team members, escalated, and resolved following standard IT support workflows. The tickets in this lab reference tasks performed in the Active Directory and Entra ID labs to connect all three projects together.
 
 ---
 
-## Creating a Project
+## Building a Team
 
-A Jira Service Management project was created using the IT Service Desk template to simulate a real help desk ticketing environment.
+A team was built within the Support project to simulate a real help desk structure with Tier 1 and Tier 2 support members. Tickets were assigned to different team members based on the complexity and priority of the request.
 
-- An IT Service Management project was created in Jira to serve as the central hub for managing and tracking help desk tickets throughout this lab.
+- Team members were added to the Support project and assigned roles to simulate a real help desk team structure with Tier 1 and Tier 2 support.
 
-![Jira Project](images/jira-project.png)
+![Jira Team](images/jira-team.png)
 
 ---
 
@@ -74,9 +74,17 @@ Triage involves reviewing incoming tickets and setting the correct priority base
 
 Tickets are assigned to the appropriate technician based on the type of request. Assigning tickets ensures accountability and allows managers to track workload across the team.
 
-- The Password Reset ticket was assigned and a comment was added documenting the resolution steps taken in Active Directory.
+- The Password Reset ticket was assigned to the lead technician and a comment was added documenting the resolution steps taken in Active Directory.
 
-![Jira Assigned](images/jira-assigned.png)
+![Jira Assigned Password](images/jira-assigned-password.png)
+
+- The New User Account Setup ticket was assigned to a Tier 1 support team member for Active Directory account creation.
+
+![Jira Assigned New User](images/jira-assigned-newuser.png)
+
+- The Software Installation Request ticket was assigned to a Tier 1 support team member for workstation software deployment.
+
+![Jira Assigned Software](images/jira-assigned-software.png)
 
 ---
 
@@ -84,7 +92,7 @@ Tickets are assigned to the appropriate technician based on the type of request.
 
 Some tickets require escalation to a higher tier of support when the issue is beyond the scope of Tier 1. Proper escalation documentation ensures the next technician has full context to continue working the ticket.
 
-- The shared drive access ticket was escalated to Tier 2 support with a comment documenting the reason for escalation and steps already taken.
+- The shared drive access ticket was escalated to a Tier 2 support team member with a comment documenting the reason for escalation and steps already taken.
 
 ![Jira Escalated](images/jira-escalated.png)
 
@@ -108,9 +116,9 @@ Tickets are resolved once the issue has been fixed and confirmed by the user. A 
 
 Queues allow help desk technicians to view and manage tickets based on specific criteria such as priority or assignment. This helps technicians prioritize their work and ensures no tickets are missed.
 
-- The High Priority queue was used to identify and focus on the most critical open tickets.
+- The All Open queue was used to view all currently open tickets and their statuses across the team.
 
-![Jira Queue Priority](images/jira-queue-priority.png)
+![Jira Queue Open](images/jira-queue-open.png)
 
 - The Assigned to Me queue was used to view all tickets currently assigned and track their resolution status.
 
