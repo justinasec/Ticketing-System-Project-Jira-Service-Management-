@@ -7,13 +7,14 @@ Jira Service Management lab simulating a real help desk environment. Covers tick
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Building a Team](#building-a-team)
-3. [Creating Tickets](#creating-tickets)
-4. [Ticket Triage and Priority](#ticket-triage-and-priority)
-5. [Assigning Tickets](#assigning-tickets)
-6. [Escalating Tickets](#escalating-tickets)
-7. [Resolving Tickets](#resolving-tickets)
-8. [Queues and Filters](#queues-and-filters)
+2. [Creating a Project](#creating-a-project)
+3. [Building a Team](#building-a-team)
+4. [Creating Tickets](#creating-tickets)
+5. [Ticket Triage and Priority](#ticket-triage-and-priority)
+6. [Assigning Tickets](#assigning-tickets)
+7. [Escalating Tickets](#escalating-tickets)
+8. [Resolving Tickets](#resolving-tickets)
+9. [Queues and Filters](#queues-and-filters)
 
 ---
 
@@ -37,6 +38,16 @@ Jira Service Management lab simulating a real help desk environment. Covers tick
 ## Project Overview
 
 This lab simulates a real IT help desk environment using Jira Service Management. Tickets were created to reflect common help desk requests and incidents, then triaged, assigned to team members, escalated, and resolved following standard IT support workflows. The tickets in this lab reference tasks performed in the Active Directory and Entra ID labs to connect all three projects together.
+
+---
+
+## Creating a Project
+
+A Jira Service Management project was created using the IT Service Management template to simulate a real help desk ticketing environment.
+
+- A Service Management project was created in Jira to serve as the central hub for managing and tracking help desk tickets throughout this lab.
+
+![Jira Project](images/jira-project.png)
 
 ---
 
