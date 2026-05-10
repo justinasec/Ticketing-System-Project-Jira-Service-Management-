@@ -125,5 +125,13 @@ Tickets are resolved once the issue has been fixed and confirmed by the user. A 
 ## Challenges and Takeaways
 
 **Challenges:**
+- Understanding ticket priority levels and how to determine the correct priority based on business impact
+- Learning when to escalate a ticket versus attempting to resolve it at Tier 1
+- Getting familiar with ticket statuses and knowing when to move a ticket from In Progress to Waiting for Support to Resolved
+- Understanding the difference between Service Requests and Incidents and knowing which ticket type to use for each scenario
 
 **Takeaways:**
+- Seeing how a ticketing system creates accountability by tracking who is assigned to what and when it was resolved
+- Seeing how Jira Service Management connects directly to real IT tasks like Active Directory account management and software deployment
+- Understanding how a well organized ticketing system reduces resolution time and improves the overall user experience
+- Learning that ticket triage is one of the first skills a help desk technician develops and directly impacts response times across the team
