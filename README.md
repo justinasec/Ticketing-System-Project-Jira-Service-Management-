@@ -14,7 +14,6 @@ Jira Service Management lab simulating a real help desk environment. Covers tick
 6. [Assigning Tickets](#assigning-tickets)
 7. [Escalating Tickets](#escalating-tickets)
 8. [Resolving Tickets](#resolving-tickets)
-9. [Queues and Filters](#queues-and-filters)
 
 ---
 
@@ -120,20 +119,6 @@ Tickets are resolved once the issue has been fixed and confirmed by the user. A 
 - The Account Lockout ticket was resolved after unlocking the account in Active Directory and confirming the user was able to log in.
 
 ![Jira Resolved Lockout](images/jira-resolved-lockout.png)
-
----
-
-## Queues and Filters
-
-Queues allow help desk technicians to view and manage tickets based on specific criteria such as priority or assignment. This helps technicians prioritize their work and ensures no tickets are missed.
-
-- The All Open queue was used to view all currently open tickets and their statuses across the team.
-
-![Jira Queue Open](images/jira-queue-open.png)
-
-- The Assigned to Me queue was used to view all tickets currently assigned and track their resolution status.
-
-![Jira Queue Assigned](images/jira-queue-assigned.png)
 
 ---
 
